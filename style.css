@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(5, 47, 75);
+  font-family: "poppins", sans-serif;
+  background-image: url("bg1.jpg");
+}
+
+.quote {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(99, 170, 194);
+  height: 22rem;
+  width: 30rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+h6 {
+  margin-bottom: 20px;
+}
+.quoteContent {
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 15px;
+}
+
+.Author {
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.generate {
+  border: none;
+  padding: 10px;
+  font-weight: 900;
+  color: azure;
+  background: midnightblue;
+  border-radius: 15px;
+  animation-timing-function: ease-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+.type {
+  font-size: 15px;
+  color: chocolate;
+}
+.credits {
+  display: block;
+}
+
+@media (hover: hover) {
+  .generate:hover {
+    background: chocolate;
+  }
+}
